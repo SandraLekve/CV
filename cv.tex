@@ -1,0 +1,71 @@
+% !TEX TS-program = luatex
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Author:
+% Christophe Roger (Darwiin)
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+
+\documentclass[localFont,alternative]{yaac-another-awesome-cv}
+
+\usepackage{blindtext}
+
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=teal,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+    
+\urlstyle{same}
+
+
+
+\name{Sandra}{Lekve}
+%\tagline{Informatikk, Økonomi og matematikk |UiB}
+\photo{3 cm}{image4}
+\socialinfo{
+	%\linkedin{christopheroger}
+	%\github{darwiin}\\
+	\smartphone{+47 455 02 284 }
+	\email{sandra.lekve@icloud.com}\\
+	\github{SandraLekve} \\
+	%\address{Michael Krohns gate 37B, 5750 Bergen}\\
+	\infos{02.02.1998 (24 år) } \\
+}
+
+\begin{document}
+
+	\makecvheader
+
+	\makecvfooter
+		{\textsc{\today}} % \selectlanguage{english}\today
+		{\textsc{Sandra Lekve - CV}}
+		{\thepage}
+
+	\input{section_headline}
+	\input{section_experience_short}		% Section expérience
+	\input{section_scolarite}				% Section scholarité
+	\input{enkelt_emner}
+	\input{section_projets}
+	\input{section_competences}				% Section compétence
+	\newline
+	\input{section_langues}					% Section langues
+	\newline
+	\input{hobby}					        % Section langues
+	\newline
+	%\input{section_interets}				% Section intérêts
+	\input{section_references} 				% Section références
+	
+
+
+\end{document}
